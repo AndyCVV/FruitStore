@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Store</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header contain">
+        <div class="icon-div">
+            <i class='bx bx-cart icon shopping' ></i>
+        </div>
+        <h1 class="tittle">TIENDA DE FRUTAS</h1>
+    </header>
+    <main class="contain">
+        <div class="banner-div">
+            <img src="./img/Banner.png" class="banner-img">
+        </div>
+        <h2 class="subtitle">Nuestros Productos</h2>
+        <div class="products">
+            <div class="card card1">
+                <img src="./img/Naranja.png" class="card1-img cardimg">
+                <div class="name-price">
+                    <span class="text name">Naranja</span>
+                    <span class="text price">$9.00/kg</span>
+                </div>
+                <a href="" class="shop-button" data-id="1">Agregar al carrito</a>
+            </div>
+
+            <div class="card card2">
+                <img src="./img/Manzana.png" class="card2-img cardimg">
+                <div class="name-price">
+                    <span class="text name">Manzana</span>
+                    <span class="text price">$5.00/kg</span>
+                </div>
+                <a href="" class="shop-button" data-id="2">Agregar al carrito</a>
+            </div>
+
+            <div class="card card3">
+                <img src="./img/Pera.png" class="card3-img cardimg">
+                <div class="name-price">
+                    <span class="text name">Pera</span>
+                    <span class="text price">$3.00/kg</span>
+                </div>
+                <a href="" class="shop-button" data-id="3">Agregar al carrito</a>
+            </div>
+
+            <div class="card card4">
+                <img src="./img/Platano.png" class="card4-img cardimg">
+                <div class="name-price">
+                    <span class="text name">Platano</span>
+                    <span class="text price">$5.50/kg</span>
+                </div>
+                <a href="" class="shop-button" data-id="4">Agregar al carrito</a>
+            </div>
+        </div>
+    </main>
+    <div class="sidebar">
+        <li class="car-text">
+            <i class='bx bx-cart icon car'></i>
+            <h2 class="subtitle-car sidebar-tittle">Carrito</h2>
+        </li>
+        <div class="shopping-cards">
+            <!-- <div class="card-store" data-id="1">
+                <img src="./img/Naranja.jpg" class="img-store">
+                <div class="name-price">
+                    <span class="text">Naranja</span>
+                    <span class="amount">Kilos: 1</span>
+                    <span class="text price">$9.00/kg</span>
+                </div>
+                <i class='bx bx-minus-circle delete'></i>
+            </div> -->
+        </div>
+        <div class="final-options">
+            <span class="total-price">Total: 0$/kg</span>
+            <a href="" class="final-buy">COMPRAR AHORA</a>
+        </div>
+    </div>
+    <div class="complete-purcharse">
+        <div class="check-text">
+            <i class='bx bx-check-circle check'></i>
+            <span class="complete-text">COMPRA EXITOSA</span>
+            <!-- <span class="close">Cerrar</span> -->
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
